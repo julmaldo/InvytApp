@@ -15,6 +15,7 @@
 		4370910C1E77747D0033EDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4370910A1E77747D0033EDFD /* LaunchScreen.storyboard */; };
 		437091171E77747D0033EDFD /* InvytAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437091161E77747D0033EDFD /* InvytAppTests.swift */; };
 		437091221E77747D0033EDFD /* InvytAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437091211E77747D0033EDFD /* InvytAppUITests.swift */; };
+		437091311E777F220033EDFD /* Invyt login.png in Resources */ = {isa = PBXBuildFile; fileRef = 437091301E777F220033EDFD /* Invyt login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4370911D1E77747D0033EDFD /* InvytAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvytAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		437091211E77747D0033EDFD /* InvytAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvytAppUITests.swift; sourceTree = "<group>"; };
 		437091231E77747D0033EDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437091301E777F220033EDFD /* Invyt login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Invyt login.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				437090FE1E77747D0033EDFD /* AppDelegate.swift */,
+				437091301E777F220033EDFD /* Invyt login.png */,
 				437091001E77747D0033EDFD /* ViewController.swift */,
 				437091021E77747D0033EDFD /* Main.storyboard */,
 				437091081E77747D0033EDFD /* Assets.xcassets */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4370910C1E77747D0033EDFD /* LaunchScreen.storyboard in Resources */,
+				437091311E777F220033EDFD /* Invyt login.png in Resources */,
 				437091091E77747D0033EDFD /* Assets.xcassets in Resources */,
 				437091041E77747D0033EDFD /* Main.storyboard in Resources */,
 			);
@@ -509,6 +513,7 @@
 				437091281E77747D0033EDFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		437091291E77747D0033EDFD /* Build configuration list for PBXNativeTarget "InvytAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				4370912B1E77747D0033EDFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4370912C1E77747D0033EDFD /* Build configuration list for PBXNativeTarget "InvytAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				4370912E1E77747D0033EDFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
