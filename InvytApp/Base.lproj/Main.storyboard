@@ -20,18 +20,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Invyt login.png" translatesAutoresizingMaskIntoConstraints="NO" id="V5K-0q-RYb">
-                                <rect key="frame" x="0.0" y="-22" width="375" height="689"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V5K-0q-RYb" secondAttribute="bottom" id="Fug-8m-HJW"/>
-                            <constraint firstAttribute="trailing" secondItem="V5K-0q-RYb" secondAttribute="trailing" id="W3v-iq-1Ec"/>
-                            <constraint firstItem="V5K-0q-RYb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YTO-3c-giB"/>
-                            <constraint firstItem="V5K-0q-RYb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-22" id="sK7-gY-xsr"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.0" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="HKV-9e-d0N"/>
                 </viewController>
@@ -42,7 +31,7 @@
         <!--Navigation Controller-->
         <scene sceneID="B8A-1k-Rm7">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ocT-Sk-muB" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ocT-Sk-muB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fcM-W6-Fqm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -58,7 +47,4 @@
             <point key="canvasLocation" x="-2.3999999999999999" y="-537.48125937031489"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Invyt login.png" width="1154" height="2048"/>
-    </resources>
 </document>

@@ -16,6 +16,9 @@
 		437091171E77747D0033EDFD /* InvytAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437091161E77747D0033EDFD /* InvytAppTests.swift */; };
 		437091221E77747D0033EDFD /* InvytAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437091211E77747D0033EDFD /* InvytAppUITests.swift */; };
 		437091311E777F220033EDFD /* Invyt login.png in Resources */ = {isa = PBXBuildFile; fileRef = 437091301E777F220033EDFD /* Invyt login.png */; };
+		4D9AE7A6CBC5865C5766E020 /* Pods_InvytAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB13EFAC910818E279B8B884 /* Pods_InvytAppTests.framework */; };
+		B341D68FE70096CC23E1381F /* Pods_InvytAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1E70BA6FA16287839DE205 /* Pods_InvytAppUITests.framework */; };
+		B53377C680F915A14199E758 /* Pods_InvytApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D666E4BC0FE83A863B6EDCA /* Pods_InvytApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4E6405B34AED1A83CD3D05 /* Pods-InvytApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvytApp/Pods-InvytApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0D666E4BC0FE83A863B6EDCA /* Pods_InvytApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvytApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1E70BA6FA16287839DE205 /* Pods_InvytAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvytAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		437090FB1E77747D0033EDFD /* InvytApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvytApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437090FE1E77747D0033EDFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		437091001E77747D0033EDFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		437091211E77747D0033EDFD /* InvytAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvytAppUITests.swift; sourceTree = "<group>"; };
 		437091231E77747D0033EDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		437091301E777F220033EDFD /* Invyt login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Invyt login.png"; sourceTree = "<group>"; };
+		6C161B94347A33104EE15C8E /* Pods-InvytAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvytAppUITests/Pods-InvytAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C5E6FAD10BEF83A3129F826 /* Pods-InvytApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvytApp/Pods-InvytApp.release.xcconfig"; sourceTree = "<group>"; };
+		6F8F5E04959ABF84F7E2D9B1 /* Pods-InvytAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvytAppTests/Pods-InvytAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		90FCE6FE7AB8DB115B0416D3 /* Pods-InvytAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvytAppUITests/Pods-InvytAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB13EFAC910818E279B8B884 /* Pods_InvytAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvytAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F802C6B5DE03AF149A4CE9E0 /* Pods-InvytAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvytAppTests/Pods-InvytAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53377C680F915A14199E758 /* Pods_InvytApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9AE7A6CBC5865C5766E020 /* Pods_InvytAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B341D68FE70096CC23E1381F /* Pods_InvytAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		333E358960B0B27F57C36171 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C4E6405B34AED1A83CD3D05 /* Pods-InvytApp.debug.xcconfig */,
+				6C5E6FAD10BEF83A3129F826 /* Pods-InvytApp.release.xcconfig */,
+				F802C6B5DE03AF149A4CE9E0 /* Pods-InvytAppTests.debug.xcconfig */,
+				6F8F5E04959ABF84F7E2D9B1 /* Pods-InvytAppTests.release.xcconfig */,
+				6C161B94347A33104EE15C8E /* Pods-InvytAppUITests.debug.xcconfig */,
+				90FCE6FE7AB8DB115B0416D3 /* Pods-InvytAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		437090F21E77747D0033EDFD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				437091151E77747D0033EDFD /* InvytAppTests */,
 				437091201E77747D0033EDFD /* InvytAppUITests */,
 				437090FC1E77747D0033EDFD /* Products */,
+				333E358960B0B27F57C36171 /* Pods */,
+				E67E88A0435C81E04BBF142D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +161,16 @@
 			path = InvytAppUITests;
 			sourceTree = "<group>";
 		};
+		E67E88A0435C81E04BBF142D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D666E4BC0FE83A863B6EDCA /* Pods_InvytApp.framework */,
+				CB13EFAC910818E279B8B884 /* Pods_InvytAppTests.framework */,
+				3E1E70BA6FA16287839DE205 /* Pods_InvytAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437091261E77747D0033EDFD /* Build configuration list for PBXNativeTarget "InvytApp" */;
 			buildPhases = (
+				C84A6943B842510DF9830CE0 /* [CP] Check Pods Manifest.lock */,
 				437090F71E77747D0033EDFD /* Sources */,
 				437090F81E77747D0033EDFD /* Frameworks */,
 				437090F91E77747D0033EDFD /* Resources */,
+				DA1E276E39A3190CDCCB6AFA /* [CP] Embed Pods Frameworks */,
+				A7C1961C4F8D5B503621591E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437091291E77747D0033EDFD /* Build configuration list for PBXNativeTarget "InvytAppTests" */;
 			buildPhases = (
+				41A64FD021B71C8F8652E3BF /* [CP] Check Pods Manifest.lock */,
 				4370910E1E77747D0033EDFD /* Sources */,
 				4370910F1E77747D0033EDFD /* Frameworks */,
 				437091101E77747D0033EDFD /* Resources */,
+				A1FFEBC8BD50081DA7E98762 /* [CP] Embed Pods Frameworks */,
+				BBA976A69F6BC43B880FDC76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4370912C1E77747D0033EDFD /* Build configuration list for PBXNativeTarget "InvytAppUITests" */;
 			buildPhases = (
+				AD8DEC11DA236FB6B153C1BC /* [CP] Check Pods Manifest.lock */,
 				437091191E77747D0033EDFD /* Sources */,
 				4370911A1E77747D0033EDFD /* Frameworks */,
 				4370911B1E77747D0033EDFD /* Resources */,
+				146F259C54B1B741B48FB4A4 /* [CP] Embed Pods Frameworks */,
+				53A5E33872A6215C5B272A94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		146F259C54B1B741B48FB4A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvytAppUITests/Pods-InvytAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41A64FD021B71C8F8652E3BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53A5E33872A6215C5B272A94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvytAppUITests/Pods-InvytAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FFEBC8BD50081DA7E98762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvytAppTests/Pods-InvytAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C1961C4F8D5B503621591E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvytApp/Pods-InvytApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8DEC11DA236FB6B153C1BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA976A69F6BC43B880FDC76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvytAppTests/Pods-InvytAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84A6943B842510DF9830CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1E276E39A3190CDCCB6AFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InvytApp/Pods-InvytApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		437090F71E77747D0033EDFD /* Sources */ = {
@@ -418,6 +605,7 @@
 		};
 		437091271E77747D0033EDFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4E6405B34AED1A83CD3D05 /* Pods-InvytApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InvytApp/Info.plist;
@@ -430,6 +618,7 @@
 		};
 		437091281E77747D0033EDFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5E6FAD10BEF83A3129F826 /* Pods-InvytApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InvytApp/Info.plist;
@@ -442,6 +631,7 @@
 		};
 		4370912A1E77747D0033EDFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F802C6B5DE03AF149A4CE9E0 /* Pods-InvytAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +646,7 @@
 		};
 		4370912B1E77747D0033EDFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8F5E04959ABF84F7E2D9B1 /* Pods-InvytAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +661,7 @@
 		};
 		4370912D1E77747D0033EDFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C161B94347A33104EE15C8E /* Pods-InvytAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InvytAppUITests/Info.plist;
@@ -483,6 +675,7 @@
 		};
 		4370912E1E77747D0033EDFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FCE6FE7AB8DB115B0416D3 /* Pods-InvytAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = InvytAppUITests/Info.plist;
