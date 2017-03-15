@@ -20,7 +20,21 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Invyt-login-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="AbG-Lw-oeg">
+                                <rect key="frame" x="0.0" y="255" width="375" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="gM3-Iv-iQJ"/>
+                                    <constraint firstAttribute="height" constant="68" id="u0h-rL-XSR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AbG-Lw-oeg" secondAttribute="trailing" id="18S-q7-uIT"/>
+                            <constraint firstItem="AbG-Lw-oeg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RHj-TL-yXD"/>
+                            <constraint firstItem="AbG-Lw-oeg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="192" id="Z6l-UX-Eds"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HKV-9e-d0N"/>
                 </viewController>
@@ -47,4 +61,7 @@
             <point key="canvasLocation" x="-2.3999999999999999" y="-537.48125937031489"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Invyt-login-logo.png" width="1154" height="228"/>
+    </resources>
 </document>

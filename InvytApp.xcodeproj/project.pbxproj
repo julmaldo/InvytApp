@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435C03901E79F211008C42DB /* Invyt-login-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 435C038F1E79F211008C42DB /* Invyt-login-logo.png */; };
 		437090FF1E77747D0033EDFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437090FE1E77747D0033EDFD /* AppDelegate.swift */; };
 		437091011E77747D0033EDFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437091001E77747D0033EDFD /* ViewController.swift */; };
 		437091041E77747D0033EDFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437091021E77747D0033EDFD /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		0C4E6405B34AED1A83CD3D05 /* Pods-InvytApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvytApp/Pods-InvytApp.debug.xcconfig"; sourceTree = "<group>"; };
 		0D666E4BC0FE83A863B6EDCA /* Pods_InvytApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvytApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1E70BA6FA16287839DE205 /* Pods_InvytAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvytAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		435C038F1E79F211008C42DB /* Invyt-login-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Invyt-login-logo.png"; path = "InvytApp/Invyt-login-logo.png"; sourceTree = "<group>"; };
 		437090FB1E77747D0033EDFD /* InvytApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvytApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437090FE1E77747D0033EDFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		437091001E77747D0033EDFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +58,7 @@
 		4370911D1E77747D0033EDFD /* InvytAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvytAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		437091211E77747D0033EDFD /* InvytAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvytAppUITests.swift; sourceTree = "<group>"; };
 		437091231E77747D0033EDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		437091301E777F220033EDFD /* Invyt login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Invyt login.png"; sourceTree = "<group>"; };
+		437091301E777F220033EDFD /* Invyt login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Invyt login.png"; path = "InvytApp/Invyt login.png"; sourceTree = "<group>"; };
 		6C161B94347A33104EE15C8E /* Pods-InvytAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InvytAppUITests/Pods-InvytAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C5E6FAD10BEF83A3129F826 /* Pods-InvytApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvytApp/Pods-InvytApp.release.xcconfig"; sourceTree = "<group>"; };
 		6F8F5E04959ABF84F7E2D9B1 /* Pods-InvytAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvytAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InvytAppTests/Pods-InvytAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		435C03911E79F22F008C42DB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				437091301E777F220033EDFD /* Invyt login.png */,
+				435C038F1E79F211008C42DB /* Invyt-login-logo.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		437090F21E77747D0033EDFD = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				437090FE1E77747D0033EDFD /* AppDelegate.swift */,
-				437091301E777F220033EDFD /* Invyt login.png */,
+				435C03911E79F22F008C42DB /* Images */,
 				437091001E77747D0033EDFD /* ViewController.swift */,
 				437091021E77747D0033EDFD /* Main.storyboard */,
 				437091081E77747D0033EDFD /* Assets.xcassets */,
@@ -291,6 +303,7 @@
 				437091311E777F220033EDFD /* Invyt login.png in Resources */,
 				437091091E77747D0033EDFD /* Assets.xcassets in Resources */,
 				437091041E77747D0033EDFD /* Main.storyboard in Resources */,
+				435C03901E79F211008C42DB /* Invyt-login-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
