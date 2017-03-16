@@ -8,12 +8,12 @@
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>fb1131177347009813</string>
+                <string>fb422646141403034</string>
             </array>
         </dict>
     </array>
     <key>FacebookAppID</key>
-    <string>1131177347009813</string>
+    <string>422646141403034</string>
     <key>FacebookDisplayName</key>
     <string>Invyt</string>
     <key>LSApplicationQueriesSchemes</key>
